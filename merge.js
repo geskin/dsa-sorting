@@ -29,7 +29,7 @@ function merge(arr1, arr2) {
 function mergeSort(arr) {
     if (arr.length < 2) return arr;
 
-    let middleIdx = Math.ceil((arr.length) / 2);
+    let middleIdx = Math.floor((arr.length) / 2);
     let arr1 = arr.slice(0, middleIdx);
     let arr2 = arr.slice(middleIdx);
 
